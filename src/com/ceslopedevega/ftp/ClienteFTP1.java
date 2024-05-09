@@ -22,6 +22,7 @@ public class ClienteFTP1 {
 		FTPClient cliente = new FTPClient();
 		String servFTP = "localhost"; // servidor FTP
 		System.out.println("Nos conectamos a: " + servFTP);
+		System.out.println("Nos conectamos a: " + servFTP);
 		cliente.connect(servFTP);
 
 		// respuesta del servidor FTP
